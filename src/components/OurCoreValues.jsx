@@ -29,6 +29,10 @@ const Title = styled.h2`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
   animation: ${fadeIn} 1s ease-in-out;
+
+   @media(max-width:768px){
+    font-size:2rem;
+  }
 `;
 
 const ValuesGrid = styled.div`
@@ -37,6 +41,12 @@ const ValuesGrid = styled.div`
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+
+   @media(max-width:768px){
+    display:flex;
+    flex-direction:column;
+    
+  }
 `;
 
 const ValueCard = styled.div`
@@ -65,6 +75,10 @@ const ValueImage = styled.img`
   object-fit: cover;
   border-radius: 10px;
   margin-top: 1rem;
+
+   @media(max-width:768px){
+    height:150px;
+  }
 `;
 
 const ValueTitle = styled.h3`

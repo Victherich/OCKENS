@@ -206,7 +206,7 @@ const HeroSection = styled.div`
 
 const HeroWrapper = styled.div`
   display: flex;
-  width: 200%;
+  width: 100%;
   transition: transform 0.5s ease-in-out;
 `;
 
@@ -216,11 +216,12 @@ const HeroSlide = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width:100%;
 `;
 
 const NewsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   margin-top: 20px;
 `;
@@ -246,6 +247,10 @@ const NewsTitle = styled.h3`
   color: #0092cf;
   margin-top: 10px;
   text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+
 `;
 
 const NewsMeta = styled.p`

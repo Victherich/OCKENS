@@ -6,6 +6,7 @@ import Hero2 from './Hero2'
 import Hero3 from './Hero3'
 import OurServices from './OurServices'
 import OurCoreValues from './OurCoreValues'
+import Gallery from './Gallery'
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <OurServices/>
       <Hero3/>
       <OurCoreValues/>
+      <Gallery/>
       <Clients/>
     </div>
   )

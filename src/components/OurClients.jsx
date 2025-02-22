@@ -18,7 +18,7 @@ const scroll = keyframes`
 const ClientsSection = styled.div`
   width: 100%;
   overflow: hidden;
-  background: #f8f9fa;
+  background: white;
   padding: 30px 0;
   position: relative;
   display: flex;
@@ -29,8 +29,16 @@ const ClientsSection = styled.div`
   padding-bottom:50px;
 
   h2{
-    margin-bottom:20px;
+    margin-bottom:40px;
     color:#0092CF;
+    font-size:2.5rem;
+    text-align:center;
+  }
+
+   @media(max-width:768px){
+    h2{
+      font-size:2rem;
+    }
   }
 `;
 
@@ -54,7 +62,7 @@ const ClientLogo = styled.img`
 const Clients = () => {
   return (
     <ClientsSection>
-        <h2>OUR CLIENTS</h2>
+        <h2>🤝🌍 OUR CLIENTS</h2>
       <ClientsWrapper>
         <ClientLogo src={client1} alt="Client 1" />
         <ClientLogo src={client2} alt="Client 2" />

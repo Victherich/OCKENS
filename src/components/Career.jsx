@@ -360,6 +360,13 @@ const HeroContent = styled.div`
       background: #007bb5;
     }
   }
+
+  @media(max-width:428px){
+    h1{
+      font-size:2rem;
+    }
+  }
+  
 `;
 
 const Section = styled.section`
@@ -371,11 +378,17 @@ const Section = styled.section`
     color: #0092cf;
     margin-bottom: 30px;
   }
+
+   @media(max-width:428px){
+    h1{
+      font-size:2rem;
+    }
+  }
 `;
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 `;
 

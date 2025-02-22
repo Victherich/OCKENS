@@ -47,6 +47,7 @@ const Title = styled.h1`
   padding: 10px 20px;
   border-radius: 5px;
   z-index: 2;
+  text-align:center;
 `;
 
 // Sliding images container

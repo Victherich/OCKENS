@@ -96,7 +96,7 @@ const MemberCard2 = styled.div`
 `;
 
 const MemberImage = styled.img`
-  width: 300px;
+  width: 250px;
 //   height: 100px;
   border-radius: 50%;
   object-fit: cover;

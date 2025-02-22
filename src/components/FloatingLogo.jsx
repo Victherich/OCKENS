@@ -12,9 +12,9 @@ const moveLogo = keyframes`
 // 🔹 Styled Component
 const FloatingLogoImg = styled.img`
   position: fixed;
-  bottom: 20px;
+  bottom: 5px;
   left: 0;
-  width: 80px;  /* Adjust size as needed */
+  width: 50px;  /* Adjust size as needed */
   height: auto;
   z-index: 9999; /* Ensures it stays above everything */
   animation: ${moveLogo} 30s linear infinite; /* Adjust timing if needed */

@@ -429,7 +429,7 @@ const Header = () => {
       <HeaderUp>
         <HeaderUpLeft>
           <Img src={logo} alt='logo'/>
-          <H2>OCKENS</H2>
+          <H2>OCKENS </H2>
         </HeaderUpLeft>
         <HeaderUpRight>
           <HeaderUpRightItem>
@@ -446,21 +446,21 @@ const Header = () => {
         <Sparkles />
         <MenuItem to='/'>HOME</MenuItem>
         <MenuItem to='/aboutus'>ABOUT US</MenuItem>
-        <MenuItem to='/services'>SERVICES</MenuItem>
+        <MenuItem to='/ourservices'>OUR SERVICES</MenuItem>
         {/* <MenuItem to='/clientsector'>CLIENT SECTOR</MenuItem> */}
         <MenuItem to='/news'>NEWS</MenuItem>
         <MenuItem to='/recentjobs'>RECENT JOBS</MenuItem>
-        <MenuItem to='/nigeriancontent'>NIGERIAN CONTENT</MenuItem>
+        {/* <MenuItem to='/nigeriancontent'>NIGERIAN CONTENT</MenuItem> */}
         <MenuItem to='/contactus'>CONTACT US</MenuItem>
       </HeaderDown>
       <MobileMenu ref={menuRef} open={mobileMenuOpen}>
          <MenuItem to='/' onClick={() => setMobileMenuOpen(false)}>HOME</MenuItem>
          <MenuItem to='/aboutus' onClick={() => setMobileMenuOpen(false)}>ABOUT US</MenuItem>
-         <MenuItem to='/services' onClick={() => setMobileMenuOpen(false)}>SERVICES</MenuItem>
+         <MenuItem to='/ourservices' onClick={() => setMobileMenuOpen(false)}>SERVICES</MenuItem>
          {/* <MenuItem to='/clientsector' onClick={() => setMobileMenuOpen(false)}>CLIENT SECTOR</MenuItem> */}
          <MenuItem to='/news' onClick={() => setMobileMenuOpen(false)}>NEWS</MenuItem>
          <MenuItem to='/recentjobs' onClick={() => setMobileMenuOpen(false)}>RECENT JOBS</MenuItem>
-         <MenuItem to='/nigeriancontent' onClick={() => setMobileMenuOpen(false)}>NIGERIAN CONTENT</MenuItem>
+         {/* <MenuItem to='/nigeriancontent' onClick={() => setMobileMenuOpen(false)}>NIGERIAN CONTENT</MenuItem> */}
          <MenuItem to='/contactus' onClick={() => setMobileMenuOpen(false)}>CONTACT US</MenuItem>
        </MobileMenu>
     </HeaderWrap>

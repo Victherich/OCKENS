@@ -82,6 +82,13 @@ const Content = styled.div`
   max-width: 500px;
   z-index: 2;
   animation: ${fadeIn} 3s ease-in-out;
+
+
+
+
+   @media(max-width:768px){
+    top:20%;
+  }
 `;
 
 const Title = styled.h1`
@@ -95,6 +102,9 @@ const Description = styled.p`
   font-size: 1.2rem;
   margin-bottom: 20px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+  background:rgba(0,0,0,0.3);
+  padding:5px;
+  border-radius:5px;
 `;
 
 

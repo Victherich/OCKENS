@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { FaGlobe, FaWater, FaLeaf } from "react-icons/fa"; // Icons for each service
-import surveyImg from "../Images/ONSHORE/onshore7.jpg";
+import surveyImg from "../Images/ONSHORE/onshore7b.jpg";
 import hydroImg from "../Images/ONSHORE/onshore2.JPG";
 import envImg from "../Images/OFFSHORE/offshore9.jpg";
 
@@ -46,11 +46,22 @@ const ServicesContainer = styled.div`
 color:#0092CF;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
+
+   @media(max-width:768px){
+    h2{
+      font-size:2rem;
+    }
+  }
  
 `;
 
 const ServiceCardWrap = styled.div`
     display:flex;
+
+ @media(max-width:768px){
+    flex-direction:column;
+  }
+
 `
 
 const ServiceCard = styled.div`
@@ -74,6 +85,7 @@ const ServiceImage = styled.img`
   width: 100%;
   height: 200px;
   border-radius: 10px;
+  object-fit:cover;
 `;
 
 const ServiceIcon = styled.div`
@@ -102,6 +114,7 @@ const ExploreButton = styled.button`
   cursor: pointer;
   font-size: 1rem;
   transition: background 0.3s;
+  margin-top:10px;
   &:hover {
     background: #0056b3;
   }
@@ -120,7 +133,7 @@ const OurServices = () => {
           <ServiceIcon>{service.icon}</ServiceIcon>
           <ServiceTitle>{service.title}</ServiceTitle>
           <ServiceDescription>{service.description}</ServiceDescription>
-          <ExploreButton onClick={() => navigate(service.path)}>Explore More</ExploreButton>
+          <ExploreButton onClick={() => navigate('/ourservices')}>Explore More</ExploreButton>
         </ServiceCard>
       ))}
       </ServiceCardWrap>

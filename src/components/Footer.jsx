@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import logo from '../Images/logo2.png'
+import { useNavigate } from "react-router-dom";
 
 
 const FooterContainer = styled.footer`
@@ -92,6 +93,8 @@ const SignatureFont = styled.h1`
 `
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <FooterContainer>
       <FooterGrid>
@@ -112,10 +115,10 @@ const Footer = () => {
         {/* Quick Links */}
         <FooterSection>
           <h3>Quick Links</h3>
-          <p><a href="/">Home</a></p>
-          <p><a href="/aboutus">About Us</a></p>
-          <p><a href="/services">Services</a></p>
-          <p><a href="/contactus">Contact</a></p>
+          <p><a href="/" style={{cursor:"pointer"}}>Home</a></p>
+          <p><a onClick={()=>navigate('/aboutus')} style={{cursor:"pointer"}}>About Us</a></p>
+          <p><a onClick={()=>navigate('/ourservices')} style={{cursor:"pointer"}}>Services</a></p>
+          <p><a onClick={()=>navigate('/contactus')} style={{cursor:"pointer"}}>Contact</a></p>
         </FooterSection>
 
         {/* Social Media */}

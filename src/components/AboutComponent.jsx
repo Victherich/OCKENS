@@ -12,6 +12,12 @@ const AboutSection = styled.section`
   flex-wrap: wrap;
   padding: 80px 20px;
   background: #f8f9fa;
+  width:100%;
+
+   @media(max-width:768px){
+    width:100%;
+    flex-direction:column;
+  }
 `;
 
 const ContentWrapper = styled.div`
@@ -19,12 +25,22 @@ const ContentWrapper = styled.div`
   max-width: 550px;
   text-align: left;
   padding: 20px;
+
+  @media(max-width:768px){
+    width:100%;
+    display:flex;
+    flex-direction:column;
+  }
 `;
 
 const ImageWrapper = styled.div`
   flex: 1;
   max-width: 550px;
   padding: 20px;
+
+   @media(max-width:768px){
+    width:100%;
+  }
 `;
 
 const AboutImage = styled.img`
@@ -39,6 +55,12 @@ const Title = styled.h2`
   margin-bottom: 15px;
   color:#0092CF;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+
+   @media(max-width:768px){
+    width:100%;
+    font-size:2rem;
+  }
 `;
 
 const Description = styled.p`
@@ -52,6 +74,12 @@ const IconRow = styled.div`
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
+  
+
+   @media(max-width:768px){
+    width:100%;
+    flex-direction:column;
+  }
 `;
 
 const IconBox = styled.div`
@@ -61,6 +89,11 @@ const IconBox = styled.div`
   font-size: 1.2rem;
   font-weight: bold;
   color: #007bff;
+
+   @media(max-width:768px){
+    width:100%;
+    // flex-direction:column;
+  }
 `;
 
 const LearnMoreButton = styled.button`
