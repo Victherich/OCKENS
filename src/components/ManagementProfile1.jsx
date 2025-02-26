@@ -100,7 +100,7 @@ const ManagementProfile1 = () => {
           </SectionTextContent>
           <List>
             <ListItem><FaCheckCircle /> Surv. Chief Kenny C. Onyenegecha (MNIS), MD/CEO</ListItem>
-            <ListItem><FaCheckCircle /> Dr Uchenwa T.A. (Director Administrations), DA</ListItem>
+            <ListItem><FaCheckCircle /> Mrs Uchenwa T.A. (Director Administrations), DA</ListItem>
           </List>
         </SectionText>
         {/* <SectionImage src={managementImg} alt="Management Team" /> */}

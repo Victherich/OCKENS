@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { FaGlobe, FaWater, FaLeaf } from "react-icons/fa"; // Icons for each service
 import surveyImg from "../Images/ONSHORE/onshore7b.jpg";
-import hydroImg from "../Images/ONSHORE/onshore2.JPG";
+import hydroImg from "../Images/ex1b.jpeg";
 import envImg from "../Images/OFFSHORE/offshore9.jpg";
 
 const services = [

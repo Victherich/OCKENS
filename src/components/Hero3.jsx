@@ -124,7 +124,18 @@ const Hero3 = () => {
   const [isVisible, setIsVisible] = useState(false);
 
 
-  const carImages1 = [car1, car2, car3, car4, car5, car6, car7,car8,car9, car10, car11];
+  const carImages1 = [
+    car1, 
+    // car2, 
+    // car3, 
+    car4,
+     car5, 
+    car6, 
+    car7,
+    car8,
+    // car9, 
+    car10, 
+    car11];
 
 
   useEffect(() => {

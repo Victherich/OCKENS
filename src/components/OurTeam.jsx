@@ -18,7 +18,7 @@ const teamMembers = [
     image: mdImage,
   },
   {
-    name: "Dr. Uchenwa T.A.",
+    name: "Mrs. Uchenwa T.A.",
     position: "Director Administrations",
     image: team1,
   },

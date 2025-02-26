@@ -25,10 +25,16 @@ import onshore9 from "../Images/ONSHORE/onshore9.jpg";
 import onshore10 from "../Images/ONSHORE/onshore10.jpg";
 import onshore11 from "../Images/ONSHORE/onshore11.jpg";
 
+import ex1 from "../Images/ex1.jpeg"
+import ex2 from "../Images/ex2.jpeg"
+import ex3 from "../Images/ex3.jpeg"
+import ex4 from "../Images/ex4.jpeg"
+
+
 // Combine all images in an array
 const images = [
   offshore1, offshore2, offshore3, offshore4, offshore5, offshore6, offshore7, offshore8, offshore9, offshore10,
-  onshore1, onshore2, onshore3, onshore4, onshore5, onshore6, onshore7, onshore8, onshore9, onshore10,
+  onshore1, onshore2, onshore3, onshore4, onshore5, onshore6, onshore7, onshore8, onshore9, onshore10, ex1, ex2, ex3, ex4
 ];
 
 // Styled Components

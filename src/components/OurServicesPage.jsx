@@ -9,7 +9,7 @@ import {
   FaChartLine,
 } from "react-icons/fa";
 import serviceImg1 from "../Images/ONSHORE/onshore7b.jpg";
-import serviceImg2 from "../Images/ONSHORE/onshore2.JPG";
+import serviceImg2 from "../Images/ex1b.jpeg";
 import serviceImg3 from "../Images/OFFSHORE/offshore9.jpg";
 import bg from '../Images/724.jpg'
 import offshore3 from '../Images/OFFSHORE/offshore3.jpg'
