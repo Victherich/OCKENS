@@ -13,6 +13,9 @@ import ManualScrollToTop from './components/ManualScrollToTop';
 import OurServicesPage from './components/OurServicesPage';
 import ContactSupport from './components/ContactPage';
 import OilBubbles from './components/OilBubbles';
+import OurServicesPage1 from './components/OurServicesPage1';
+import OurServicesPage2 from './components/OurServicesPage2';
+import OurServicesPage3 from './components/OurServicesPage3';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
         <Route path='/recentjobs' element={<Career/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path="/ourservices" element={<OurServicesPage/>}/>
+        <Route path="/ourservices1" element={<OurServicesPage1/>}/>
+        <Route path="/ourservices2" element={<OurServicesPage2/>}/>
+        <Route path="/ourservices3" element={<OurServicesPage3/>}/>
         <Route path='/contactus' element={<ContactSupport/>}/>
       </Routes>
       <FloatingLogo/>

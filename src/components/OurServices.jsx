@@ -13,7 +13,7 @@ const services = [
     description: "We offer accurate ground surveys and GPS positioning...",
     icon: <FaGlobe />,
     image: surveyImg,
-    path: "/services/ground-surveys",
+    path: "/ourservices1",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const services = [
     description: "Our hydrographic surveys ensure precision in offshore projects...",
     icon: <FaWater />,
     image: hydroImg,
-    path: "/services/hydrographic-surveys",
+    path: "/ourservices2",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const services = [
     description: "Protecting the environment with monitoring and analysis...",
     icon: <FaLeaf />,
     image: envImg,
-    path: "/services/environmental-services",
+    path: "/ourservices3",
   },
 ];
 
@@ -133,7 +133,7 @@ const OurServices = () => {
           <ServiceIcon>{service.icon}</ServiceIcon>
           <ServiceTitle>{service.title}</ServiceTitle>
           <ServiceDescription>{service.description}</ServiceDescription>
-          <ExploreButton onClick={() => navigate('/ourservices')}>Explore More</ExploreButton>
+          <ExploreButton onClick={() => navigate(`${service.path}`)}>Explore More</ExploreButton>
         </ServiceCard>
       ))}
       </ServiceCardWrap>
